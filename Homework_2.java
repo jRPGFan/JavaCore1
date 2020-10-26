@@ -151,7 +151,7 @@ public class Homework_2 {
     }
 
     public static void moveArrayItems(int[] array, int step){
-        if (step % array.length == 0 || array.length % step == 0){
+        if (Math.abs(step) % array.length == 0 || array.length == Math.abs(step) || step == 0){
             System.out.println("Bibbidi Bobbidi Boo, the array hasn't shifted so here's a return for you.\n");
             return;
         }
