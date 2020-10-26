@@ -8,7 +8,7 @@ public class Homework_2 {
 
     public static void main(String[] args) {
         // Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
-        // Написать метод, заменяющий в принятом массиве 0 на 1, 1 на 0;
+        // Написать метод, заменяющий в принятом массиве 0 на 1, 1 на 0; 
         int[] array1 = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         System.out.println("Original array:\n" + Arrays.toString(array1));
         System.out.println("Reversed array:\n" + Arrays.toString(reverseArrayValues(array1)) + "\n");
