@@ -34,7 +34,7 @@ public class TicTacToeMain extends JFrame {
         playingField = new PlayingField();
         add(playingField);
 
-        JButton btnPlay = new JButton("Start a New Game");
+        JButton btnPlay = new JButton("Start a Classic 3x3 Game");
         btnPlay.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -42,7 +42,7 @@ public class TicTacToeMain extends JFrame {
             }
         });
 
-        JButton btnSettings = new JButton("Settings");
+        JButton btnSettings = new JButton("Start a Custom Game");
         btnSettings.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
